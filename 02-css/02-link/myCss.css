@@ -1,0 +1,33 @@
+table{
+    background-color: #f3f7cc;
+    color:#f5a328;
+    padding:2px;
+    font-size:20px;
+    margin:1px;
+    border-radius:10px;
+}
+img                                                                                                              
+{
+border:5px dotted  rgb(185, 103, 233);
+}
+th{background-color:rgb(139, 201, 216);color:black;font-size:}
+
+body
+{
+    background-color:#f7dcf5;
+}
+h1
+{
+    color:rgb(241, 23, 150);
+}
+h3{
+    color:rgb(10, 90, 240);
+}
+p
+{
+    font-family:"Times New Roman";
+    font-size:20px;
+}
+form{
+    color:rgb(119, 0, 255)
+}

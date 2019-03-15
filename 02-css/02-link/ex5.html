@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="myCss.css"/>
+        <title>個人簡介&個人表單</title>
+    </head>
+    <body>
+        <h1>~自我介紹~</h1>
+        <img src="https://instagram.fkhh1-2.fna.fbcdn.net/vp/fc47b86b53329f03395633ed18676d8e/5D077319/t51.2885-19/s150x150/51732495_625826041188314_3160926772569047040_n.jpg?_nc_ht=instagram.fkhh1-2.fna.fbcdn.net">
+        <table border="1">
+                <tr>
+                    <th>欄位</th>
+                    <th>內容</th>
+                </tr>
+                <tr>
+                        <td>姓名</td>
+                        <td>徐熙堯</td>
+                <tr>
+                    <td>職務</td>
+                    <td>金門大學資工系學生</td>
+                </tr>
+                <tr>
+                        <td>網站</td>
+                        <td><a href="https://www.instagram.com/myosotis_yao/">個人網站</a></td>
+                </tr>
+            </table>
+            <h1>~喜歡的食物調查~</h1><img border="0" src="https://no1.toments.com/img/2018/01/10/0IOgfP7XoZ77M8B/og.jpg">
+            <h3>基本資料</h3>
+            <form>
+                <input type="radio" name="性別" value="男性">男性<br>
+                <input type="radio" name="性別" value="女性">女性
+             <tr><td>年齡</td><td>
+                    <input type="number" name="myage" min="0" max="120"/><br/>
+            <tr><td>血型</td><td>
+                            <select name="myblood">
+                               <option value="A">A型</option>
+                               <option value="B">B型</option>
+                               <option value="AB">AB型</option>
+                               <option value="O">O型</option>
+                            </select>
+            </tr>
+            </form>
+        
+             <h3>是否喜歡吃甜食</h3>
+             <form>
+                <input type="radio" name="sweet" value="是">是<br>
+                <input type="radio" name="sweet" value="否">否
+            </form>
+        
+            <h3>請勾選以下喜歡的食物</h3>
+            <form>
+                <input type="checkbox" name="vehicle" value="cake">蛋糕<br>
+                <input type="checkbox" name="vehicle" value="icecreen">冰淇淋<br>
+                <input type="checkbox" name="vehicle" value="EggTower">蛋塔<br>
+                <input type="checkbox" name="vehicle" value="chocolate">巧克力
+            </form>
+        
+        
+            <h2>感謝您的參與！Have a nice day!</h2>
+        
+            <form name="input" action="html_form_action.php" method="get">
+                今天日期: <input type="text" name="user">
+                <input type="submit" value="提交">
+            </form>
+    </body>
+</html>
