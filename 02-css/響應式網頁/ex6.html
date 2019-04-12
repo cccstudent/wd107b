@@ -30,6 +30,7 @@ body {
 .dropdown {
   float: right;
   overflow: hidden;
+  width:140px;
 }
 .dropdown .dropbtn {
   cursor: pointer;
@@ -91,11 +92,11 @@ body {
 .sidebar {
   transition: width 1s;
  }
-.sidebar a:hover {
+.col-1 .sidebar a:hover {
   color: rgb(241, 52, 124);
 }
-.sidebar:hover {
-  width: 150px; 
+.col-2.sidebar:hover {
+  width: 145px; 
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -111,10 +112,16 @@ img:hover
   opacity:1.0;
   filter:alpha(opacity=100);
 }
+.col-1 {width: 150px;}
+@media only screen and (max-width: 768px) {
+    [class*="col-2"] {
+        width: 5px;
+    }
+}
 </style>
 </head>
 <body>
-<div class="sidebar">
+<div class="sidebar col-1 col-2">
  <ul>
   <p><b>．個人網站</b></p>
  <li><a href="#"><a href="https://www.facebook.com/a.yao.752">．Facebook</a></li>
@@ -123,6 +130,7 @@ img:hover
  <li><a href="#"><a href="https://ayd0122344.github.io/wd107b/02-css/01-%E5%85%A7%E5%A5%97%E7%94%A8CSS/ex4.html">．個人履歷</a></li>
  </ul>
 </div>
+
 <div class="navbar">
   <a href="#home">☆</a>
   <a href="#news">★</a>
