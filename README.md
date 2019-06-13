@@ -7,5 +7,3 @@
 教師 | 陳鍾誠
 學校 | 金門大學
 科系 | 資訊工程系
-我的專案 | [說明](https://github.com/ayd0122344/wd107b/blob/master/myproject.md)
-
