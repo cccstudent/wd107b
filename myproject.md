@@ -12,4 +12,7 @@
 目前尚無法重置數值
 
 技術手段
-使用HTML5、CSS3、node.js、javascript
+1.使用HTML5網頁設計語言
+2.使用CSS3階層式樣式表
+3.使用node.js網站應用程式開發框架
+4.使用javascript高階程式語言
