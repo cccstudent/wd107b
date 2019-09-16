@@ -1,17 +1,15 @@
 function binary(a)
 {
     var i,j=a;
-    var c=[0];
-    for(i=0;j!=1;i++)
+    var c=[];
+    for(i=0; j > 0; i++)
     {
-        j=j/2;
-        c[i]=j%2;
-        if(j==1)
-        {
-            c[i+1]=1;
-        }
+        c[i] = j%2
+        j = (j - c[i])/2
     }
     return c.reverse();
 }
-var a=6;
-console.log(binary(a));
+
+console.log(binary(6))
+console.log(binary(18))
+console.log(binary(33))
